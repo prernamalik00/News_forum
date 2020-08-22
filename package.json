@@ -1,0 +1,19 @@
+{
+  "name": "news_forum",
+  "version": "1.0.0",
+  "description": "This is our summer project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manav802/News_forum.git"
+  },
+  "author": "Manav Prerna Srishty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manav802/News_forum/issues"
+  },
+  "homepage": "https://github.com/Manav802/News_forum#readme"
+}
