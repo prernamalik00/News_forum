@@ -12,6 +12,7 @@
     "bootstrap": "^5.0.0-alpha1",
     "emotion-theming": "^10.0.27",
     "express": "^4.17.1",
+    "framer-motion": "^2.6.5",
     "newsapi": "^2.4.1",
     "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
