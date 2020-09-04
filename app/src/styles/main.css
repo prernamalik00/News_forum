@@ -1,0 +1,36 @@
+.header {
+  background-color: #000000; }
+  .header .user-header {
+    background: grey; }
+    .header .user-header .user-pic {
+      background-color: white;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      margin-right: 0.5em; }
+  .header .navigation {
+    background-color: #885578; }
+    .header .navigation .menu-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #885578;
+      justify-content: space-between;
+      float: right; }
+      .header .navigation .menu-list li {
+        display: flex;
+        float: left; }
+        .header .navigation .menu-list li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          padding: 0.4em 0.8em; }
+          .header .navigation .menu-list li a:hover:not(.active) {
+            background-color: white;
+            color: #885578; }
+      .header .navigation .menu-list .active {
+        background-color: white;
+        color: #885578; }
