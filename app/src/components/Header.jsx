@@ -17,6 +17,7 @@ function Header() {
             <div className="d-flex navigation">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div className="header-name">
                     <h2>KHABAREIN</h2>
                 </div>
@@ -71,6 +72,35 @@ function Header() {
             </div>
         </div>
 =======
+=======
+                <div className="navbar-container container">
+                    <a href=""
+                     className="home-link">
+                        <div className="navbar-logo"></div>
+                        <h2>Khabarein</h2>
+                    </a>
+                    
+                    <div className="menu-list">
+                        <div className="search-bar">
+                            <a href="#search" className="search-btn"></a>
+                            <input type="text" className="search-text" name="" placeholder="Search..."/>
+                        </div>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutus">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactus">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                
+>>>>>>> Changing header css
             </div>
         </div>
 
