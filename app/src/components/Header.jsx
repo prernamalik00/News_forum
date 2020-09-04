@@ -11,20 +11,33 @@ function Header() {
                 Hi Prerna...
             </div>
             <div className="d-flex navigation">
-                {/* <div>
-                    <Drawer />
-                </div> */}
-                <div className="header-name">
-                    <h2>KHABAREIN</h2>
+                <div className="navbar-container container">
+                    <a href=""
+                     className="home-link">
+                        <div className="navbar-logo"></div>
+                        <h2>Khabarein</h2>
+                    </a>
+                    
+                    <div className="menu-list">
+                        <div className="search-bar">
+                            <a href="#search" className="search-btn"></a>
+                            <input type="text" className="search-text" name="" placeholder="Search..."/>
+                        </div>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#aboutus">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactus">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </div>
                 
-                <div className="menu-list">
-                    <ul>
-                        <li className="active"><a href="#home">HOME</a></li>
-                        <li><a href="#about">ABOUT US</a></li>
-                        <li><a href="#contact">CONTACT US</a></li>
-                    </ul>
-                </div>
             </div>
         </div>
 

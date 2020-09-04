@@ -1,37 +1,80 @@
 .header {
   background-color: #000000; }
   .header .user-header {
-    background: grey; }
+    background: #d9d9d9; }
     .header .user-header .user-pic {
       background-color: white;
       border-radius: 50%;
       width: 30px;
       height: 30px;
-      margin-right: 0.5em;
-      padding: 0.5em; }
+      margin: 2px 10px 2px 8px;
+      padding: 0.5rem; }
   .header .navigation {
-    background-color: #885578; }
-    .header .navigation .menu-list {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #885578;
+    background-color: #885578;
+    min-height: 64px;
+    position: fixed;
+    text-decoration: none;
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
+    .header .navigation .container {
+      max-width: 1366px;
+      padding-left: 1.4rem;
+      padding-right: 1.4rem;
+      margin-left: auto;
+      margin-right: auto; }
+    .header .navigation .navbar-container {
+      display: flex;
       justify-content: space-between;
-      float: right; }
-      .header .navigation .menu-list li {
+      height: 100%;
+      align-items: center; }
+      .header .navigation .navbar-container .home-link {
+        color: #d9d9d9;
+        text-decoration: none;
         display: flex;
-        float: left; }
-        .header .navigation .menu-list li a {
-          display: block;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          padding: 0.4em 0.8em; }
-          .header .navigation .menu-list li a:hover:not(.active) {
-            background-color: white;
-            color: #885578; }
-      .header .navigation .menu-list .active {
-        background-color: white;
-        color: #885578; }
+        font-weight: 400;
+        align-items: center; }
+        .header .navigation .navbar-container .home-link .navbar-logo {
+          background-color: white;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          margin-right: 0.5em; }
+      .header .navigation .navbar-container .menu-list {
+        color: #d9d9d9;
+        display: flex; }
+        .header .navigation .navbar-container .menu-list ul li .nav-item:hover {
+          border-bottom-color: white; }
+        .header .navigation .navbar-container .menu-list ul li .nav-link {
+          color: #d9d9d9; }
+        .header .navigation .navbar-container .menu-list .search-bar:hover > .search-text {
+          width: 240px;
+          padding: 0 6px; }
+        .header .navigation .navbar-container .menu-list .search-bar {
+          transform: translate(-50%, -50%);
+          background: #885578;
+          border: #d9d9d9;
+          padding: 10px; }
+          .header .navigation .navbar-container .menu-list .search-bar .search-btn {
+            color: #d9d9d9;
+            float: left;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            border-color: #d9d9d9;
+            background: #885578;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          .header .navigation .navbar-container .menu-list .search-bar .search-text {
+            border-radius: 40px;
+            border-style: solid;
+            border-color: #d9d9d9;
+            background: none;
+            outline: none;
+            float: left;
+            padding: 0;
+            color: #d9d9d9;
+            transition: 0.4s;
+            line-height: 32px;
+            width: 0px; }
