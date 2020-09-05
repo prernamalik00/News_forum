@@ -3,9 +3,12 @@ $text-color: hsl(0, 0%, 85%);
 $text-color-focus: white;
 $nav-height: 64px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> Changing header css
+=======
+>>>>>>> changing header.scss
 .header {
   background-color: #000000;
   .user-header {
@@ -23,6 +26,7 @@ $nav-height: 64px;
     background-color: #885578;
     min-height: $nav-height;
 <<<<<<< HEAD
+<<<<<<< HEAD
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     .navbar-container {
@@ -30,24 +34,18 @@ $nav-height: 64px;
       justify-content: space-between;
 =======
     position: fixed;
+=======
+>>>>>>> changing header.scss
     text-decoration: none;
-    left: 0;
-    right: 0;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-
-    .container {
-      max-width: 1366px;
-      padding-left: 1.4rem;
-      padding-right: 1.4rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
     .navbar-container {
       display: flex;
       justify-content: space-between;
+<<<<<<< HEAD
       height: 100%;
 >>>>>>> Changing header css
+=======
+>>>>>>> changing header.scss
       align-items: center;
       .home-link {
         color: hsl(0, 0%, 85%);
@@ -56,9 +54,12 @@ $nav-height: 64px;
         font-weight: 400;
         align-items: center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> Changing header css
+=======
+>>>>>>> changing header.scss
         .navbar-logo {
           background-color: white;
           border-radius: 50%;
@@ -67,66 +68,60 @@ $nav-height: 64px;
           margin-right: 0.5em;
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
       }
       .active {
         background-color: white;
         color: #885578;
 =======
       
+=======
+      }
+      .menu-list {
+        color: $text-color;
+        display: flex;
+        li {
+          .nav-link {
+            color: $text-color;
+            &:active {
+              color: rgba(13, 47, 141, 0.753);
+            }
+          }
+>>>>>>> changing header.scss
         }
-
-        
-
-        .menu-list {
+      }
+      .search-bar:hover > .search-text {
+        width: auto;
+        padding: 0 6px;
+      }
+      .search-bar {
+        background: $nav-color;
+        border: $text-color;
+        padding: 10px;
+        .search-btn {
           color: $text-color;
+          float: left;
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          border-color: $text-color;
+          background: $nav-color;
           display: flex;
-            li {
-              .nav-link {
-                color: $text-color;
-              }
-
-            }
-          }
-          
-
-          .search-bar:hover > .search-text {
-            width: 240px;
-            padding: 0 6px;
-          }
-          .search-bar {
-            transform: translate(-50%, -50%);
-            background: $nav-color;
-            
-            
-            border: $text-color;
-            padding: 10px;
-            .search-btn {
-              color: $text-color;
-              float: left;
-              width: 32px;
-              height: 32px;
-              border-radius: 50%;
-              border-color: $text-color;
-              background: $nav-color;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-            
-            .search-text {
-              border-radius: 40px;
-              border-style: solid; 
-              border-color: $text-color;  
-              background: none;
-              outline: none;
-              float: left;
-              padding: 0;
-              color: $text-color;
-              transition: 0.4s;
-              line-height: 32px;
-              width: 0px;
-
-            }
+          justify-content: center;
+          align-items: center;
+        }
+        .search-text {
+          border-radius: 40px;
+          border-style: solid;
+          border-color: $text-color;
+          background: none;
+          outline: none;
+          float: left;
+          padding: 0;
+          color: $text-color;
+          transition: 0.4s;
+          line-height: 32px;
+          width: 0px;
         }
 >>>>>>> Changing header css
       }
@@ -155,6 +150,7 @@ $nav-height: 64px;
       }
     }
   }
+<<<<<<< HEAD
   .search-bar:hover > .search-text {
     width: auto;
     padding: 0 6px;
@@ -202,4 +198,6 @@ $nav-height: 64px;
       border-color: white;
     }
   }
+=======
+>>>>>>> changing header.scss
 }
