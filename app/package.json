@@ -25,7 +25,6 @@
   "scripts": {
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "scss": "node-sass --watch css/main.scss -o css/main.css",
     "eject": "react-scripts eject",
     "sass": "node-sass src/styles/main.scss src/styles/main.css -w",
     "start": "react-scripts start"
