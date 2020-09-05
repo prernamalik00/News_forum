@@ -6,22 +6,20 @@ function Header() {
         <div class="sticky-top header">
             <div className="d-flex user-header">
                 <div className="user-pic">
-
                 </div>
                 Hi Prerna...
             </div>
             <div className="d-flex navigation">
                 <div className="navbar-container container">
                     <a href=""
-                     className="home-link">
+                        className="home-link">
                         <div className="navbar-logo"></div>
                         <h2>Khabarein</h2>
                     </a>
-                    
                     <div className="menu-list">
                         <div className="search-bar">
                             <a href="#search" className="search-btn"></a>
-                            <input type="text" className="search-text" name="" placeholder="Search..."/>
+                            <input type="text" className="search-text" name="" placeholder="Search..." autofocus />
                         </div>
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
@@ -35,13 +33,11 @@ function Header() {
                             </li>
                         </ul>
                     </div>
-                    
                 </div>
-                
             </div>
         </div>
 
-        
+
     )
 }
 export default Header
