@@ -1,133 +1,162 @@
 @font-face {
   font-family: "Nexa Light";
-  src: url("../assets/fonts/nexa/Nexa Light.otf"); }
+  src: url("../assets/fonts/nexa/Nexa Light.otf");
+}
 
 @font-face {
   font-family: "Nexa Bold";
-  src: url("../assets/fonts/nexa//Nexa Bold.otf"); }
+  src: url("../assets/fonts/nexa//Nexa Bold.otf");
+}
 
 @font-face {
   font-family: "Nunito Sans Regular";
-  src: url("../assets/fonts/nunito/NunitoSans-Regular.ttf"); }
+  src: url("../assets/fonts/nunito/NunitoSans-Regular.ttf");
+}
 
 @font-face {
   font-family: "Nunito Sans ExtraBold";
-  src: url("../assets/fonts/nunito/NunitoSans-ExtraBold.ttf"); }
+  src: url("../assets/fonts/nunito/NunitoSans-ExtraBold.ttf");
+}
 
 @font-face {
   font-family: "Nunito Sans SemiBold";
-  src: url("../assets/fonts/nunito/NunitoSans-SemiBold.ttf"); }
+  src: url("../assets/fonts/nunito/NunitoSans-SemiBold.ttf");
+}
 
 @font-face {
   font-family: "Nunito Sans Bold";
-  src: url("./../assets/fonts/nunito/NunitoSans-Bold.ttf"); }
+  src: url("./../assets/fonts/nunito/NunitoSans-Bold.ttf");
+}
 
 @font-face {
   font-family: "Nunito Sans Black";
-  src: url("../assets/fonts/nunito/NunitoSans-Black.ttf"); }
+  src: url("../assets/fonts/nunito/NunitoSans-Black.ttf");
+}
 
 .heading-font {
-  font-family: Nexa Bold; }
+  font-family: Nexa Bold;
+}
 
 .largetext-font {
-  font-family: Nexa Light; }
+  font-family: Nexa Light;
+}
 
 .text-font-regular {
-  font-family: "Nunito Sans Regular"; }
+  font-family: "Nunito Sans Regular";
+}
 
 .text-font-semibold {
-  font-family: "Nunito Sans SemiBold"; }
+  font-family: "Nunito Sans SemiBold";
+}
 
 .text-font-extrabold {
-  font-family: "Nunito Sans ExtraBold"; }
+  font-family: "Nunito Sans ExtraBold";
+}
 
 .text-font-bold {
-  font-family: "Nunito Sans Bold"; }
+  font-family: "Nunito Sans Bold";
+}
 
 .text-font-black {
-  font-family: "Nunito Sans Black"; }
+  font-family: "Nunito Sans Black";
+}
 
 .header {
-  background-color: #000000; }
-  .header .user-header {
-    background: #d9d9d9; }
-    .header .user-header .user-pic {
-      background-color: white;
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      margin: 2px 10px 2px 8px;
-      padding: 0.5rem; }
-  .header .navigation {
-    background-color: #885578;
-    min-height: 64px;
-    position: fixed;
-    text-decoration: none;
-    left: 0;
-    right: 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); }
-    .header .navigation .container {
-      max-width: 1366px;
-      padding-left: 1.4rem;
-      padding-right: 1.4rem;
-      margin-left: auto;
-      margin-right: auto; }
-    .header .navigation .navbar-container {
-      display: flex;
-      justify-content: space-between;
-      height: 100%;
-      align-items: center; }
-      .header .navigation .navbar-container .home-link {
-        color: #d9d9d9;
-        text-decoration: none;
-        display: flex;
-        font-weight: 400;
-        align-items: center; }
-        .header .navigation .navbar-container .home-link .navbar-logo {
-          background-color: white;
-          border-radius: 50%;
-          width: 30px;
-          height: 30px;
-          margin-right: 0.5em; }
-      .header .navigation .navbar-container .active {
-        background-color: white;
-        color: #885578; }
-      .header .navigation .navbar-container .menu-list {
-        color: #d9d9d9;
-        display: flex; }
-        .header .navigation .navbar-container .menu-list li .nav-link {
-          color: #d9d9d9; }
-      .header .navigation .navbar-container .search-bar:hover > .search-text {
-        width: 240px;
-        padding: 0 6px; }
-      .header .navigation .navbar-container .search-bar {
-        transform: translate(-50%, -50%);
-        background: #885578;
-        border: #d9d9d9;
-        padding: 10px; }
-        .header .navigation .navbar-container .search-bar .search-btn {
-          color: #d9d9d9;
-          float: left;
-          width: 32px;
-          height: 32px;
-          border-radius: 50%;
-          border-color: #d9d9d9;
-          background: #885578;
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-        .header .navigation .navbar-container .search-bar .search-text {
-          border-radius: 40px;
-          border-style: solid;
-          border-color: #d9d9d9;
-          background: none;
-          outline: none;
-          float: left;
-          padding: 0;
-          color: #d9d9d9;
-          transition: 0.4s;
-          line-height: 32px;
-          width: 0px; }
+  background-color: #000000;
+}
+.header .user-header {
+  background: #d9d9d9;
+}
+.header .user-header .user-pic {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 2px 10px 2px 8px;
+  padding: 0.5rem;
+}
+.header .navigation {
+  background-color: #885578;
+  min-height: 64px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+.header .navigation .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .navigation .navbar-container .home-link {
+  color: #d9d9d9;
+  text-decoration: none;
+  display: flex;
+  font-weight: 400;
+  align-items: center;
+}
+.header .navigation .navbar-container .home-link .navbar-logo {
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5em;
+}
+.header .navigation .navbar-container .active {
+  background-color: white;
+  color: #885578;
+}
+.header .navigation .navbar-container .menu-list {
+  color: #d9d9d9;
+  display: flex;
+}
+.header .navigation .navbar-container .menu-list li .nav-link {
+  color: #d9d9d9;
+}
+.header .navigation .navbar-container .search-bar:hover > .search-text {
+  width: 240px;
+  padding: 0 6px;
+}
+.header .navigation .navbar-container .search-bar {
+  transform: translate(-50%, -50%);
+  background: #885578;
+}
+.header .navigation .navbar-container .search-bar:active {
+  color: rgba(13, 47, 141, 0.753);
+}
+.header .search-bar:hover > .search-text {
+  width: auto;
+  padding: 0 6px;
+}
+.header .search-bar {
+  background: #885578;
+  border: #d9d9d9;
+  padding: 10px;
+}
+.header .search-bar .search-btn {
+  color: #d9d9d9;
+  float: left;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border-color: #d9d9d9;
+  background: #885578;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .search-bar .search-text {
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #d9d9d9;
+  transition: 0.4s;
+  line-height: 32px;
+  width: 0px;
+}
 
 .search_bar input {
-  background-color: #885578; }
+  background-color: #885578;
+}
