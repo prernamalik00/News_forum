@@ -39,15 +39,14 @@ function Header() {
 =======
                 <div className="navbar-container container">
                     <a href=""
-                     className="home-link">
+                        className="home-link">
                         <div className="navbar-logo"></div>
                         <h2>Khabarein</h2>
                     </a>
-                    
                     <div className="menu-list">
                         <div className="search-bar">
                             <a href="#search" className="search-btn"></a>
-                            <input type="text" className="search-text" name="" placeholder="Search..."/>
+                            <input type="text" className="search-text" name="" placeholder="Search..." autofocus />
                         </div>
                         <ul class="nav justify-content-end">
                             <li class="nav-item">
@@ -61,12 +60,18 @@ function Header() {
                             </li>
                         </ul>
                     </div>
-                    
                 </div>
+<<<<<<< HEAD
                 
 >>>>>>> Changing header css
             </div>
         </div>
+=======
+            </div>
+        </div>
+
+
+>>>>>>> changing header.scss
     )
 }
 export default Header
