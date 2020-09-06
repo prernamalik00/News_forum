@@ -35,3 +35,46 @@
       .header .navigation .menu-list .active {
         background-color: white;
         color: #885578; }
+
+.recents-container {
+  padding: 5%;
+  direction: rtl; }
+  .recents-container .recents-heading {
+    height: 60px;
+    background-color: #bb1280ab; }
+    .recents-container .recents-heading h2 {
+      padding-top: 10px;
+      font-family: 'Nunito', sans-serif;
+      color: #fff;
+      font-size: 2rem;
+      text-align: center; }
+  .recents-container .scrollbar {
+    border-left: 0.8px solid #3f3f3f;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll; }
+  .recents-container .news-section {
+    padding: 5%;
+    direction: ltr; }
+
+::-webkit-scrollbar {
+  width: 10px; }
+
+::-webkit-scrollbar-track {
+  background: #111111;
+  border-radius: 5px; }
+
+::-webkit-scrollbar-thumb {
+  background: #414040c9;
+  border-radius: 1px;
+  box-shadow: inset 0 0 #1f1e1e;
+  border: 1px solid #111111; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(90, 89, 89, 0.829); }
+
+.interests-container {
+  width: 90%; }
+
+body {
+  background: #111111; }
