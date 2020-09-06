@@ -35,3 +35,6 @@
       .header .navigation .menu-list .active {
         background-color: white;
         color: #885578; }
+
+.search_bar input {
+  background-color: #885578; }
