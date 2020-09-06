@@ -16,6 +16,7 @@ function Header() {
             </div>
             <div className="d-flex navigation">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <div className="header-name">
                     <h2>KHABAREIN</h2>
                 </div>
@@ -38,6 +39,9 @@ function Header() {
                 </div>
 =======
                 <div className="navbar-container container">
+=======
+                <div className="navbar-container container-fluid">
+>>>>>>> Changing some css in navbar
                     <a href=""
                         className="home-link">
                         <div className="navbar-logo"></div>
