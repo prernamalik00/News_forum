@@ -10,7 +10,7 @@ function Header() {
                 Hi Prerna...
             </div>
             <div className="d-flex navigation">
-                <div className="navbar-container container">
+                <div className="navbar-container container-fluid">
                     <a href=""
                         className="home-link">
                         <div className="navbar-logo"></div>
