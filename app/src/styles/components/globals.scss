@@ -1,2 +1,5 @@
-$primary-color:#111111;
-$secondary-color :#bb1280ab;
+$primary-color: #111111;
+$secondary-color: #bb1280ab;
+body {
+  background: $primary-color;
+}
