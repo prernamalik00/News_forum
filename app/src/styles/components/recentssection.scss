@@ -51,7 +51,6 @@
   padding: 5%;
   direction: rtl;
   .recents-heading {
-    height: 60px;
     background-color: $secondary-color;
     h2 {
       padding-top: 10px;
@@ -63,7 +62,7 @@
   }
   .scrollbar {
     border-left: 0.8px solid #3f3f3f;
-    height: 500px;
+    height: 1000px;
     overflow-x: hidden;
     overflow-y: scroll;
   }
