@@ -1,3 +1,52 @@
+@font-face {
+  font-family: "Nexa Light";
+  src: url("../assets/fonts/nexa/Nexa Light.otf"); }
+
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("../assets/fonts/nexa//Nexa Bold.otf"); }
+
+@font-face {
+  font-family: "Nunito Sans Regular";
+  src: url("../assets/fonts/nunito/NunitoSans-Regular.ttf"); }
+
+@font-face {
+  font-family: "Nunito Sans ExtraBold";
+  src: url("../assets/fonts/nunito/NunitoSans-ExtraBold.ttf"); }
+
+@font-face {
+  font-family: "Nunito Sans SemiBold";
+  src: url("../assets/fonts/nunito/NunitoSans-SemiBold.ttf"); }
+
+@font-face {
+  font-family: "Nunito Sans Bold";
+  src: url("./../assets/fonts/nunito/NunitoSans-Bold.ttf"); }
+
+@font-face {
+  font-family: "Nunito Sans Black";
+  src: url("../assets/fonts/nunito/NunitoSans-Black.ttf"); }
+
+.heading-font {
+  font-family: Nexa Bold; }
+
+.largetext-font {
+  font-family: Nexa Light; }
+
+.text-font-regular {
+  font-family: "Nunito Sans Regular"; }
+
+.text-font-semibold {
+  font-family: "Nunito Sans SemiBold"; }
+
+.text-font-extrabold {
+  font-family: "Nunito Sans ExtraBold"; }
+
+.text-font-bold {
+  font-family: "Nunito Sans Bold"; }
+
+.text-font-black {
+  font-family: "Nunito Sans Black"; }
+
 .header {
   background-color: #000000; }
   .header .user-header {
