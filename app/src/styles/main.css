@@ -108,34 +108,6 @@
   color: #885578;
 }
 
-.search_bar input {
-  background-color: #885578;
-}
-.recents-container {
-  padding: 5%;
-  direction: rtl;
-}
-.recents-container .recents-heading {
-  height: 60px;
-  background-color: #bb1280ab;
-}
-.recents-container .recents-heading h2 {
-  padding-top: 10px;
-  font-family: "Nunito", sans-serif;
-  color: #fff;
-  font-size: 2rem;
-  text-align: center;
-}
-.recents-container .scrollbar {
-  border-left: 0.8px solid #3f3f3f;
-  height: 500px;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-.recents-container .news-section {
-  padding: 5%;
-  direction: ltr;
-}
 .search_bar {
   color: white;
 }
