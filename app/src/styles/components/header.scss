@@ -46,7 +46,13 @@
   }
 }
 .search_bar {
+  color: white;
   input {
     background-color: #885578;
+    border-color: white;
+    &:focus {
+      color: white;
+      border-color: white;
+    }
   }
 }

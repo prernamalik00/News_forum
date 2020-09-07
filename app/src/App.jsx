@@ -8,7 +8,6 @@ function App() {
                 <div className="row">
                     <div className="col-8">  <InterestSection /></div>
                     <div className="col"><RecentsSection /></div>
-
                 </div>
             </div>
         </>

@@ -11,7 +11,6 @@ function Header() {
         <div class="sticky-top header">
             <div className="d-flex user-header">
                 <div className="user-pic">
-
                 </div>
                 Hi Prerna...
             </div>
@@ -23,7 +22,7 @@ function Header() {
                     {search && <motion.input
                         type="text"
                         autoFocus
-                        initial={{ width: 0 }}
+                        initial={{ width: "20px" }}
                         animate={{ width: "auto" }}
                         transition={{ type: "tween" }}
                     />}
