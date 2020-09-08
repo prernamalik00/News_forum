@@ -1,7 +1,9 @@
+@import "fonts/nexa.scss";
+@import "fonts/nunitosans.scss";
+@import "variables.scss";
+@import "globals.scss";
 @import "components/header.scss";
+@import "components/drawer.scss";
+@import "components/greetings.scss";
 @import "components/recentssection.scss";
-@import "components/globals.scss";
 @import "components/interestsection.scss";
-
-body {
-    background : $primary-color}

@@ -37,16 +37,22 @@
             color: #885578;
           }
         }
-      
-        
       }
       .active {
         background-color: white;
         color: #885578;
       }
     }
-   }
   }
-
-  
- 
+}
+.search_bar {
+  color: white;
+  input {
+    background-color: #885578;
+    border-color: white;
+    &:focus {
+      color: white;
+      border-color: white;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.heading-font {
+  font-family: Nexa Bold;
+}
+
+.largetext-font {
+  font-family: Nexa Light;
+}
+
+.text-font {
+  &-regular {
+    font-family: "Nunito Sans Regular";
+  }
+  &-semibold {
+    font-family: "Nunito Sans SemiBold";
+  }
+  &-extrabold {
+    font-family: "Nunito Sans ExtraBold";
+  }
+  &-bold {
+    font-family: "Nunito Sans Bold";
+  }
+  &-black {
+    font-family: "Nunito Sans Black";
+  }
+}
