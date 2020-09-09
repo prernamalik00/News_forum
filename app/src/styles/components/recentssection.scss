@@ -1,39 +1,16 @@
 @import "globals.scss";
-.recents-container {
-  padding: 5%;
 
-  direction: rtl;
-  .recents-heading {
-    height: 60px;
-    background-color: $secondary-color;
-
-    h2 {
-      padding-top: 10px;
-      font-family: "Nunito", sans-serif;
-      color: #fff;
-      font-size: 2rem;
-      text-align: center;
-    }
-  }
-
-  .scrollbar {
-    border-left: 0.8px solid #3f3f3f;
-    height: 500px;
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-  .news-section {
-    padding: 5%;
-    direction: ltr;
-  }
-}
 
 
 .recents-container {
-  padding: 5%;
+  background-color: $secondary-color;
   direction: rtl;
+  // box-shadow: 0 4px 8px 0 rgba(92, 88, 88, 0.2), 0 6px 12px 0 rgba(78, 77, 77, 0.466);
+
+
   .recents-heading {
-    background-color: $secondary-color;
+    
+   
     h2 {
       padding-top: 10px;
       font-family: "Nunito", sans-serif;
@@ -43,13 +20,14 @@
     }
   }
   .scrollbar {
+    background-color: $primary-color;
     border-left: 0.8px solid #3f3f3f;
-    height: 1000px;
+    height: 800px;
     overflow-x: hidden;
     overflow-y: scroll;
   }
   .news-section {
-    padding: 5%;
+    
     direction: ltr;
   }
 }

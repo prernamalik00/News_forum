@@ -2,7 +2,10 @@ $primary-color: #1d1d1d;
 $secondary-color: #bb1280ab;
 body {
   background: $primary-color;
+  overflow-x: hidden;
 }
+
+
 // scroll bar styling
 ::-webkit-scrollbar {
   width: 10px;
