@@ -100,9 +100,49 @@
   height: 30px;
   margin-right: 0.5em;
 }
-.header .navigation .navbar-container .active {
-  background-color: white;
-  color: #885578;
+.header .navigation .navbar-container .menu-list {
+  color: #d9d9d9;
+  display: flex;
+}
+.header .navigation .navbar-container .menu-list li .nav-link {
+  color: #d9d9d9;
+}
+.header .navigation .navbar-container .menu-list li .nav-link:active {
+  color: rgba(13, 47, 141, 0.753);
+}
+.header .navigation .navbar-container .search-bar:hover > .search-text {
+  width: auto;
+  padding: 0 6px;
+}
+.header .navigation .navbar-container .search-bar {
+  background: #885578;
+  border: #d9d9d9;
+  padding: 10px;
+}
+.header .navigation .navbar-container .search-bar .search-btn {
+  color: #d9d9d9;
+  float: left;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border-color: #d9d9d9;
+  background: #885578;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .navigation .navbar-container .search-bar .search-text {
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #d9d9d9;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #d9d9d9;
+  transition: 0.4s;
+  line-height: 32px;
+  width: 0px;
 }
 .header .navigation .navbar-container .menu-list {
   color: #d9d9d9;

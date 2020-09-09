@@ -19,6 +19,10 @@ function Header() {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7355cd12cb2312c5c99c9e2fa99248bb861f015c
                 <div className="header-name">
                     <h2>KHABAREIN</h2>
                 </div>

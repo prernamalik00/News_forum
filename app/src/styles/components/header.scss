@@ -4,11 +4,14 @@ $text-color-focus: white;
 $nav-height: 64px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> Changing header css
 =======
 >>>>>>> changing header.scss
+=======
+>>>>>>> 7355cd12cb2312c5c99c9e2fa99248bb861f015c
 .header {
   background-color: #000000;
   .user-header {
@@ -27,11 +30,15 @@ $nav-height: 64px;
     min-height: $nav-height;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7355cd12cb2312c5c99c9e2fa99248bb861f015c
     text-decoration: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     .navbar-container {
       display: flex;
       justify-content: space-between;
+<<<<<<< HEAD
 =======
     position: fixed;
 =======
@@ -46,10 +53,13 @@ $nav-height: 64px;
 >>>>>>> Changing header css
 =======
 >>>>>>> changing header.scss
+=======
+>>>>>>> 7355cd12cb2312c5c99c9e2fa99248bb861f015c
       align-items: center;
       .home-link {
         color: hsl(0, 0%, 85%);
         text-decoration: none;
+<<<<<<< HEAD
         display: flex;
         font-weight: 400;
         align-items: center;
@@ -66,16 +76,98 @@ $nav-height: 64px;
           width: 30px;
           height: 30px;
           margin-right: 0.5em;
+=======
+        display: flex;
+        font-weight: 400;
+        align-items: center;
+        .navbar-logo {
+          background-color: white;
+          border-radius: 50%;
+          width: 30px;
+          height: 30px;
+          margin-right: 0.5em;
+        }
+      }
+      .menu-list {
+        color: $text-color;
+        display: flex;
+        li {
+          .nav-link {
+            color: $text-color;
+            &:active {
+              color: rgba(13, 47, 141, 0.753);
+            }
+          }
+        }
+      }
+      .search-bar:hover > .search-text {
+        width: auto;
+        padding: 0 6px;
+      }
+      .search-bar {
+        background: $nav-color;
+        border: $text-color;
+        padding: 10px;
+        .search-btn {
+          color: $text-color;
+          float: left;
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          border-color: $text-color;
+          background: $nav-color;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .search-text {
+          border-radius: 40px;
+          border-style: solid;
+          border-color: $text-color;
+          background: none;
+          outline: none;
+          float: left;
+          padding: 0;
+          color: $text-color;
+          transition: 0.4s;
+          line-height: 32px;
+          width: 0px;
+        }
+      }
+
+      .menu-list {
+        color: $text-color;
+        display: flex;
+        li {
+          .nav-link {
+            color: $text-color;
+          }
+>>>>>>> 7355cd12cb2312c5c99c9e2fa99248bb861f015c
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
       }
+<<<<<<< HEAD
       .active {
         background-color: white;
         color: #885578;
 =======
       
 =======
+=======
+
+      .search-bar:hover > .search-text {
+        width: 240px;
+        padding: 0 6px;
+      }
+      .search-bar {
+        transform: translate(-50%, -50%);
+        background: $nav-color;
+
+        &:active {
+          color: rgba(13, 47, 141, 0.753);
+        }
+>>>>>>> 7355cd12cb2312c5c99c9e2fa99248bb861f015c
       }
       .menu-list {
         color: $text-color;
@@ -151,6 +243,41 @@ $nav-height: 64px;
     }
   }
 <<<<<<< HEAD
+  .search-bar:hover > .search-text {
+    width: auto;
+    padding: 0 6px;
+  }
+  .search-bar {
+    background: $nav-color;
+    border: $text-color;
+    padding: 10px;
+    .search-btn {
+      color: $text-color;
+      float: left;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border-color: $text-color;
+      background: $nav-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .search-text {
+      border-radius: 40px;
+      border-style: solid;
+      border-color: $text-color;
+      background: none;
+      outline: none;
+      float: left;
+      padding: 0;
+      color: $text-color;
+      transition: 0.4s;
+      line-height: 32px;
+      width: 0px;
+    }
+  }
   .search-bar:hover > .search-text {
     width: auto;
     padding: 0 6px;
