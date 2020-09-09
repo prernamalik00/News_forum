@@ -15,14 +15,6 @@ function Header() {
                 Hi Prerna...
             </div>
             <div className="d-flex navigation">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 7355cd12cb2312c5c99c9e2fa99248bb861f015c
                 <div className="header-name">
                     <h2>KHABAREIN</h2>
                 </div>
@@ -43,81 +35,8 @@ function Header() {
                         <li><a href="#contact">CONTACT US</a></li>
                     </ul>
                 </div>
-=======
-                <div className="navbar-container container">
-=======
-                <div className="navbar-container container-fluid">
->>>>>>> Changing some css in navbar
-                    <a href=""
-                        className="home-link">
-                        <div className="navbar-logo"></div>
-                        <h2>Khabarein</h2>
-                    </a>
-                    <div className="menu-list">
-                        <div className="search-bar">
-                            <a href="#search" className="search-btn"></a>
-                            <input type="text" className="search-text" name="" placeholder="Search..." autofocus />
-                        </div>
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#Home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#aboutus">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contactus">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-<<<<<<< HEAD
-                
->>>>>>> Changing header css
             </div>
         </div>
-=======
-=======
-                <div className="navbar-container container">
-=======
-                <div className="navbar-container container-fluid">
->>>>>>> Changing some css in navbar
-                    <a href=""
-                        className="home-link">
-                        <div className="navbar-logo"></div>
-                        <h2>Khabarein</h2>
-                    </a>
-                    <div className="menu-list">
-                        <div className="search-bar">
-                            <a href="#search" className="search-btn"></a>
-                            <input type="text" className="search-text" name="" placeholder="Search..." autofocus />
-                        </div>
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#Home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#aboutus">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contactus">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-<<<<<<< HEAD
-                
->>>>>>> Changing header css
-=======
->>>>>>> changing header.scss
-            </div>
-        </div>
-
-
-<<<<<<< HEAD
->>>>>>> changing header.scss
-=======
->>>>>>> changing header.scss
     )
 }
 export default Header
