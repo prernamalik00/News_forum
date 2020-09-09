@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#adding main.css
+/src/styles/main.css
+
 # production
 /build
 
