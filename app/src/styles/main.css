@@ -125,10 +125,11 @@ body {
 .recents-container {
   background-color: #bb1280ab;
   direction: rtl;
-  position: fixed; }
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(92, 88, 88, 0.2), 0 6px 12px 0 rgba(78, 77, 77, 0.466);
+  border-radius: 3px; }
   .recents-container .recents-heading h2 {
     padding-top: 10px;
-    font-family: "Nunito", sans-serif;
     color: #fff;
     font-size: 2rem;
     text-align: center; }
@@ -140,6 +141,10 @@ body {
     overflow-y: scroll; }
   .recents-container .news-section {
     direction: ltr; }
+
+.interests-section {
+  margin: 3%;
+  justify-content: space-evenly; }
 
 .container-fluid {
   margin-top: 6vh;
