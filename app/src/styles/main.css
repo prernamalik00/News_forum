@@ -114,12 +114,18 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(90, 89, 89, 0.8); }
 
+::-webkit-scrollbar-button {
+  display: block;
+  height: 2px;
+  background-color: rgba(90, 89, 89, 0.8); }
+
 .font-heading {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
 
 .recents-container {
   background-color: #bb1280ab;
-  direction: rtl; }
+  direction: rtl;
+  position: fixed; }
   .recents-container .recents-heading h2 {
     padding-top: 10px;
     font-family: "Nunito", sans-serif;
@@ -129,14 +135,14 @@ body {
   .recents-container .scrollbar {
     background-color: #1d1d1d;
     border-left: 0.8px solid #3f3f3f;
-    height: 800px;
+    height: 76vh;
     overflow-x: hidden;
     overflow-y: scroll; }
   .recents-container .news-section {
     direction: ltr; }
 
 .container-fluid {
-  margin-top: 50px;
+  margin-top: 6vh;
   padding: 0; }
   .container-fluid .row .col-9 {
     margin: 0;

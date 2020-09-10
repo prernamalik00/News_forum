@@ -23,6 +23,11 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: rgba(90, 89, 89, 0.8);
 }
+::-webkit-scrollbar-button{
+  display: block;
+  height: 2px;
+  background-color:rgba(90, 89, 89, 0.8);
+}
 .font-heading {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
