@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { motion } from 'framer-motion'
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { Search } from 'react-bootstrap-icons';
 
 function Header() {
@@ -10,9 +10,6 @@ function Header() {
     return (
         <div class="sticky-top header">
             <div className="d-flex user-header">
-                <div className="user-pic">
-                </div>
-                Hi Prerna...
             </div>
             <div className="d-flex navigation">
                 <div className="header-name">
@@ -29,11 +26,6 @@ function Header() {
                     <Search size={32} onClick={changeVisibility} />
                 </div>
                 <div className="menu-list">
-                    <ul>
-                        <li className="active"><a href="#home">HOME</a></li>
-                        <li><a href="#about">ABOUT US</a></li>
-                        <li><a href="#contact">CONTACT US</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
