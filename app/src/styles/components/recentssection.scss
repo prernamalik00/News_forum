@@ -3,6 +3,11 @@
 .recents-container {
   background-color: $secondary-color;
   direction: rtl;
+  position: fixed;
+  box-shadow: 0 4px 8px 0 rgba(92, 88, 88, 0.2),
+    0 6px 12px 0 rgba(78, 77, 77, 0.466);
+  border-radius: 3px;
+
   .recents-heading {
     h2 {
       padding-top: 10px;
@@ -14,7 +19,7 @@
   .scrollbar {
     background-color: $primary-color;
     border-left: 0.8px solid #3f3f3f;
-    height: 800px;
+    height: 76vh;
     overflow-x: hidden;
     overflow-y: scroll;
   }
