@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#adding gitignore
+/src/styles/main.css
+
 # production
 /build
 
