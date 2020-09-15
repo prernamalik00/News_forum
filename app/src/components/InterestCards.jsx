@@ -1,25 +1,16 @@
-import React from "react"
+import React from "react";
 import InterestSecCard from "./InterestSecCard";
 
-function InterestCards(){
-    return(<>
-    
-    <div classname="row">
-
-
+function InterestCards() {
+  return (
+    <>
+      <div classname="row">
         <InterestSecCard />
         <InterestSecCard />
-      
 
         <InterestSecCard />
-        
-       
-
-
-        </div>
-        
-        
-        </>
-    )
+      </div>
+    </>
+  );
 }
-export default InterestCards
+export default InterestCards;

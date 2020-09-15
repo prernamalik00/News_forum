@@ -1,20 +1,12 @@
-import React from 'react'
+import React from "react";
 import InterestCards from "./InterestCards";
-function InterestSection(){
-  return(
-      
-      <div className="interests-section">
-       <InterestCards />
-       <InterestCards />
-       <InterestCards />
-      
-
-          </div>
-          
-         
-
-      
-      
-  )
+function InterestSection() {
+  return (
+    <div className="interests-section">
+      <InterestCards />
+      <InterestCards />
+      <InterestCards />
+    </div>
+  );
 }
-export default InterestSection
+export default InterestSection;
