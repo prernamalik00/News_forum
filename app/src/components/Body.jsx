@@ -7,7 +7,7 @@ function Body(){
         <>
         <div className="container-fluid">
             <div className="row">
-                <div className="col-9">  <InterestSection /></div>
+                <div className="col-8">  <InterestSection /></div>
                 <div className="col"><RecentsSection /></div>
             </div>
         </div>
