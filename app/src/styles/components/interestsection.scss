@@ -2,17 +2,15 @@
 
 .interests-section {
   margin: 3%;
-  .col-4 {
-    margin: 5%;
 
-    .interestseccard {
-      box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.925);
-
-      .card-header {
-        margin: 2%;
-        border-bottom-color: #6c757d;
-        color: $card-title-color;
-      }
+  .interestseccard {
+    box-shadow: -7px -7px 13px rgba(126, 124, 124, 0.2),
+      10px 10px 13px rgba(0, 0, 0, 0.959);
+    border-radius: 3px;
+    .card-header {
+      margin: 2%;
+      border-bottom-color: #6c757d;
+      color: $card-title-color;
     }
   }
 }

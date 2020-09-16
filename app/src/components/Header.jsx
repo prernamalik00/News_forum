@@ -10,17 +10,24 @@ function Header() {
     }
     return (
         <div class="sticky-top header text-color-light">
-            <div className="d-flex user-header">
+            <div className="d-flex user-header align-items-center">
                 <div className="container-fluid d-flex justify-content-between align-items-center"></div>
             </div>
-            <div className="navigation">
+            <div className="navigation d-flex align-items-center">
                 <div className="container-fluid d-flex justify-content-between align-items-center">
                     <div className="header-name">
                         <h2>KHABAREIN</h2>
                     </div>
-                    <div className="search_bar">
-                        <input />
-                        <Search size={32} />
+                    <div className="d-flex">
+                        <div className="search_bar">
+                            <Search size={32} />
+                            <input />
+                        </div>
+                        <div className="d-flex justify-content-evenly menu">
+                            <a>Home</a>
+                            <a>Home</a>
+                            <a>Home</a>
+                        </div>
                     </div>
                 </div>
             </div>
