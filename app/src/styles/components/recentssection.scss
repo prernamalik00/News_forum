@@ -2,17 +2,23 @@
   background-color: $secondary-color-light;
   direction: rtl;
   position: fixed;
+  margin-top: 5%;
+  margin-bottom: 0;
+  box-shadow: -7px -7px 13px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  height: 85%;
+
   .recents-heading {
     h2 {
       padding-top: 10px;
-      color: #fff;
+      color: rgb(143, 115, 115);
       text-align: center;
     }
   }
   .scrollbar {
     background-color: $primary-color;
-    border-left: 0.8px solid $primary-color-light;
-    height: 84vh;
+    border-left: 0.8px solid #3f3f3f;
+    height: inherit;
     overflow-x: hidden;
     overflow-y: scroll;
   }
