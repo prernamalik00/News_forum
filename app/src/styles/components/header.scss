@@ -11,17 +11,22 @@
     }
   }
   .navigation {
-    background-color: #885578;
+    background-color: $secondary-color;
+    min-height: 6vh;
   }
 }
 .search_bar {
   color: white;
   input {
-    background-color: #885578;
-    border-color: white;
+    background-color: $secondary-color-light;
+    border: none;
+    appearance: none;
+    border: inset 2px $light-color;
     &:focus {
-      color: white;
-      border-color: white;
+      color: $light-color;
     }
   }
+}
+input {
+  outline: none;
 }

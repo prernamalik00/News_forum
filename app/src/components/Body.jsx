@@ -2,18 +2,18 @@ import React from "react"
 import RecentsSection from "./RecentsSection";
 import InterestSection from "./InterestSection";
 
-function Body(){
-    return(
+function Body() {
+    return (
         <>
-        <div className="container-fluid">
-            <div className="row">
-                <div className="col-9">  <InterestSection /></div>
-                <div className="col"><RecentsSection /></div>
+            <div className="container-fluid text-color-light text-font-regular">
+                <div className="row">
+                    <div className="col-lg-9 col-sm-7">  <InterestSection /></div>
+                    <div className="col-lg-3 col-sm-5"><RecentsSection /></div>
+                </div>
             </div>
-        </div>
-    </>
+        </>
 
     )
-    }
+}
 export default Body
 

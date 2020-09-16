@@ -3,29 +3,25 @@ import { motion } from 'framer-motion';
 import { Search } from 'react-bootstrap-icons';
 
 function Header() {
-    const [search, setSearch] = useState(false)
-    const changeVisibility = () => {
-        setSearch(!search)
+
+    const [openSearch, setOpenSearch] = useState(false);
+    const OpenSearch = (openstate) => {
+        setOpenSearch(openstate);
     }
     return (
-        <div class="sticky-top header">
+        <div class="sticky-top header text-color-light">
             <div className="d-flex user-header">
+                <div className="container-fluid d-flex justify-content-between align-items-center"></div>
             </div>
-            <div className="d-flex navigation">
-                <div className="header-name">
-                    <h2>KHABAREIN</h2>
-                </div>
-                <div className="search_bar">
-                    {search && <motion.input
-                        type="text"
-                        autoFocus
-                        initial={{ width: "20px" }}
-                        animate={{ width: "auto" }}
-                        transition={{ type: "tween" }}
-                    />}
-                    <Search size={32} onClick={changeVisibility} />
-                </div>
-                <div className="menu-list">
+            <div className="navigation">
+                <div className="container-fluid d-flex justify-content-between align-items-center">
+                    <div className="header-name">
+                        <h2>KHABAREIN</h2>
+                    </div>
+                    <div className="search_bar">
+                        <input />
+                        <Search size={32} />
+                    </div>
                 </div>
             </div>
         </div>

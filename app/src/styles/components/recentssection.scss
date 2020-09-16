@@ -1,25 +1,18 @@
-@import "globals.scss";
-
 .recents-container {
-  background-color: $secondary-color;
+  background-color: $secondary-color-light;
   direction: rtl;
   position: fixed;
-  box-shadow: 0 4px 8px 0 rgba(92, 88, 88, 0.2),
-    0 6px 12px 0 rgba(78, 77, 77, 0.466);
-  border-radius: 3px;
-
   .recents-heading {
     h2 {
       padding-top: 10px;
       color: #fff;
-      font-size: 2rem;
       text-align: center;
     }
   }
   .scrollbar {
     background-color: $primary-color;
-    border-left: 0.8px solid #3f3f3f;
-    height: 76vh;
+    border-left: 0.8px solid $primary-color-light;
+    height: 84vh;
     overflow-x: hidden;
     overflow-y: scroll;
   }
