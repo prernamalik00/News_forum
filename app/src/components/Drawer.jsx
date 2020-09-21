@@ -1,12 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function Drawer() {
-    return (
-        <div >
-            App
-            lore
-        </div>
-    )
+  return <div>App lore </div>;
 }
 
-export default Drawer
+export default Drawer;

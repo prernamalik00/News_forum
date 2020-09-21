@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Card() {
   return (
@@ -6,7 +6,6 @@ function Card() {
       <div className="horizontalcards card mb-3 bg-transparent">
         <div className="row no-gutters">
           <div className="col-md-4 ">
-          
             <img
               className="card-img  "
               width="100%"
@@ -20,18 +19,15 @@ function Card() {
             <div className="card-body text-white">
               <h4 className="card-title"> Card title </h4>
               <p className="card-text">
-                {" "}
+                {' '}
                 Lorem Lorem lorem lorem ipsum lorem ipsum lorem ipsum lorem
                 ipsum
               </p>
 
               <p className="card-text text-right">
-                <small className="text-muted "> 
-                Read more --
-                 </small>
+                <small className="text-muted ">Read more --</small>
               </p>
             </div>
-
           </div>
         </div>
       </div>

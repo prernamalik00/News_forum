@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import HorizontalCards from "./HorizontalCards";
-
+import HorizontalCards from './HorizontalCards';
 
 function RecentsSection() {
   return (
