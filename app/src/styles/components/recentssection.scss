@@ -1,7 +1,5 @@
-@import "globals.scss";
-
 .recents-container {
-  background-color: $secondary-color;
+  background-color: $secondary-color-light;
   direction: rtl;
   position: fixed;
   margin-top: 5%;
@@ -14,7 +12,6 @@
     h2 {
       padding-top: 10px;
       color: #fff;
-      font-size: 2rem;
       text-align: center;
     }
   }
