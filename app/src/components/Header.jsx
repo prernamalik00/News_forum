@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import React from 'react';
+// import { motion } from 'framer-motion';
 import { Search } from 'react-bootstrap-icons';
 
 function Header() {
-  const [openSearch, setOpenSearch] = useState(false);
-  const OpenSearch = (openstate) => {
-    setOpenSearch(openstate);
-  };
+  // const [openSearch, setOpenSearch] = useState(false);
+  // const OpenSearch = (openstate) => {
+  //   setOpenSearch(openstate);
+  // };
   return (
     <div class="sticky-top header text-color-light">
       <div className="d-flex user-header align-items-center">
@@ -23,9 +23,9 @@ function Header() {
               <input />
             </div>
             <div className="d-flex justify-content-evenly menu">
-              <a>Home</a>
-              <a>Home</a>
-              <a>Home</a>
+              {/* <a href="#">Home</a>
+              <a href="#">Home</a>
+              <a href="#">Home</a> */}
             </div>
           </div>
         </div>

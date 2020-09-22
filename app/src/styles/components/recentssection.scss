@@ -1,3 +1,5 @@
+@import 'variables.scss';
+
 .recents-container {
   background-color: $secondary-color-light;
   direction: rtl;
@@ -24,5 +26,9 @@
   }
   .news-section {
     direction: ltr;
+
+    .col-md-4 {
+      padding: 3px;
+    }
   }
 }
