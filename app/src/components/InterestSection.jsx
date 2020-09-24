@@ -1,15 +1,14 @@
-import React from 'react'
-
-function InterestSection(){
-  return(
-      <div className =" interests-container">
-      
-         
-          
-         
-
+import React from "react";
+import InterestSecCard from "./InterestSecCard";
+function InterestSection() {
+  return (
+    <div className="interests-section">
+      <div className="row">
+        <InterestSecCard />
+        <InterestSecCard />
+        <InterestSecCard />
       </div>
-      
-  )
+    </div>
+  );
 }
-export default InterestSection
+export default InterestSection;

@@ -1,42 +1,37 @@
-import React, { useState } from 'react'
-import { motion } from 'framer-motion'
+import React from 'react';
+// import { motion } from 'framer-motion';
 import { Search } from 'react-bootstrap-icons';
 
 function Header() {
-    const [search, setSearch] = useState(false)
-    const changeVisibility = () => {
-        setSearch(!search)
-    }
-    return (
-        <div class="sticky-top header">
-            <div className="d-flex user-header">
-                <div className="user-pic">
-                </div>
-                Hi Prerna...
+  // const [openSearch, setOpenSearch] = useState(false);
+  // const OpenSearch = (openstate) => {
+  //   setOpenSearch(openstate);
+  // };
+  return (
+    <div class="sticky-top header text-color-light">
+      <div className="d-flex user-header align-items-center">
+        <div className="container-fluid d-flex justify-content-between align-items-center"></div>
+      </div>
+      <div className="navigation d-flex align-items-center">
+        <div className="container-fluid d-flex justify-content-between align-items-center">
+          <div className="header-name">
+            <h2>KHABAREIN</h2>
+          </div>
+          <div className="d-flex">
+            <div className="search_bar">
+              <Search size={32} />
+              <input />
             </div>
-            <div className="d-flex navigation">
-                <div className="header-name">
-                    <h2>KHABAREIN</h2>
-                </div>
-                <div className="search_bar">
-                    {search && <motion.input
-                        type="text"
-                        autoFocus
-                        initial={{ width: "20px" }}
-                        animate={{ width: "auto" }}
-                        transition={{ type: "tween" }}
-                    />}
-                    <Search size={32} onClick={changeVisibility} />
-                </div>
-                <div className="menu-list">
-                    <ul>
-                        <li className="active"><a href="#home">HOME</a></li>
-                        <li><a href="#about">ABOUT US</a></li>
-                        <li><a href="#contact">CONTACT US</a></li>
-                    </ul>
-                </div>
+            <div className="d-flex justify-content-evenly menu">
+              {/* <a href="#">Home</a>
+              <a href="#">Home</a>
+              <a href="#">Home</a> */}
             </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
-export default Header
+
+export default Header;

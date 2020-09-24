@@ -1,3 +1,19 @@
-.interests-container {
-  width: 90%;
+@import 'variables.scss';
+.interests-section {
+  margin: 3%;
+
+  .interestseccard {
+    box-shadow: -7px -7px 13px rgba(126, 124, 124, 0.2),
+      10px 10px 13px rgba(0, 0, 0, 0.959);
+    border-radius: 3px;
+
+    .card-header {
+      margin: 2%;
+      border-bottom-color: #6c757d;
+      color: #fff;
+    }
+  }
+}
+.card {
+  background-color: $primarydark-color !important;
 }
