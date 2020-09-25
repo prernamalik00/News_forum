@@ -13,14 +13,14 @@ function Card() {
             alt="picsum"
           ></img>
         </div>
-        <div className="col-md-8">
+        <div className="col-md-8 p-2">
           <div className="card-body text-white">
             <h4 className="card-title"> Card title </h4>
             <p className="card-text">
               Lorem Lorem lorem lorem ipsum lorem ipsum lorem
             </p>
             <p className="card-text text-right">
-              {/* <a href="#">Read more...</a> */}
+              <a className="linkstyle" href="#">Read more ..</a>
             </p>
           </div>
         </div>

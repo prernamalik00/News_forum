@@ -1,4 +1,4 @@
-@import 'components/variables.scss';
+@import "components/variables.scss";
 
 .heading-font {
   font-family: Nexa Bold;
@@ -10,19 +10,19 @@
 
 .text-font {
   &-regular {
-    font-family: 'Nunito Sans Regular';
+    font-family: "Nunito Sans Regular";
   }
   &-semibold {
-    font-family: 'Nunito Sans SemiBold';
+    font-family: "Nunito Sans SemiBold";
   }
   &-extrabold {
-    font-family: 'Nunito Sans ExtraBold';
+    font-family: "Nunito Sans ExtraBold";
   }
   &-bold {
-    font-family: 'Nunito Sans Bold';
+    font-family: "Nunito Sans Bold";
   }
   &-black {
-    font-family: 'Nunito Sans Black';
+    font-family: "Nunito Sans Black";
   }
 }
 
@@ -72,4 +72,18 @@ input {
 
 .text-color-light {
   color: $light-color;
+}
+
+.linkstyle {
+  color: $light-color;
+  text-decoration: none;
+  padding: 2%;
+  &:hover {
+    color: $light-color;
+
+    align-items: center;
+    box-shadow: 2px 2px 5px 0 rgba(29, 27, 27, 0.89),
+      -3px -3px 2px 0 rgba(94, 88, 88, 0.658);
+    border-radius: 10%;
+  }
 }

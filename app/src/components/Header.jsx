@@ -9,10 +9,10 @@ function Header() {
   // };
   return (
     <div class="sticky-top header text-color-light">
-      <div className="d-flex user-header align-items-center">
+      <div className="d-flex user-header align-items-center p-2">
         <div className="container-fluid d-flex justify-content-between align-items-center"></div>
       </div>
-      <div className="navigation d-flex align-items-center">
+      <div className="navigation d-flex align-items-center p-2">
         <div className="container-fluid d-flex justify-content-between align-items-center">
           <div className="header-name">
             <h2>KHABAREIN</h2>
@@ -23,9 +23,9 @@ function Header() {
               <input />
             </div>
             <div className="d-flex justify-content-evenly menu">
-              {/* <a href="#">Home</a>
-              <a href="#">Home</a>
-              <a href="#">Home</a> */}
+              <a className="linkstyle" href="#">Home</a>
+              <a className="linkstyle" href="#">Home</a>
+              <a className="linkstyle" href="#">Home</a>
             </div>
           </div>
         </div>
