@@ -18,9 +18,9 @@ function Card({ data }) {
             <h4 className="card-title">{data.title}</h4>
             <p className="card-text">{data.content}</p>
 
-            <p className="article-link text-right text-font-bold">
-              <a href={data.url}>Read more...</a>
-            </p>
+            <a className="linkstyle text-right" href={data.url}>
+              Read more...
+            </a>
           </div>
         </div>
       </div>

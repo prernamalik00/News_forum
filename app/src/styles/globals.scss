@@ -73,3 +73,17 @@ input {
 .text-color-light {
   color: $light-color;
 }
+
+.linkstyle {
+  color: $light-color;
+  text-decoration: none;
+  padding: 2%;
+  &:hover {
+    color: $light-color;
+
+    align-items: center;
+    box-shadow: 2px 2px 5px 0 rgba(29, 27, 27, 0.89),
+      -3px -3px 2px 0 rgba(94, 88, 88, 0.658);
+    border-radius: 10%;
+  }
+}
