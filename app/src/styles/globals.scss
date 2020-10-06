@@ -74,8 +74,12 @@ input {
   color: $light-color;
 }
 
+.content-color {
+  color: $content-color;
+}
 .linkstyle {
-  color: $light-color;
+  font-family: 'Indie Flower', cursive;
+  color: $text-muted-color;
   text-decoration: none;
   padding: 2%;
   &:hover {

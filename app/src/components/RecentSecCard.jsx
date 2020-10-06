@@ -9,18 +9,27 @@ function Card({ data }) {
             className="card-img  "
             width="100%"
             height="100%"
-            src="https://picsum.photos/100/100"
-            alt="picsum"
+            src={
+              data.urlToImage !== null
+                ? data.urlToImage
+                : 'https://ak4.picdn.net/shutterstock/videos/14402014/thumb/1.jpg'
+            }
           ></img>
         </div>
         <div className="col-md-8">
-          <div className="card-body text-white">
-            <h4 className="card-title">{data.title}</h4>
-            <p className="card-text">{data.content}</p>
+          <div className="card-body ">
+            <h4 className="card-title">{data.title + '. . .'}</h4>
+            <p className="card-text content-color">
+              {data.content !== null
+                ? data.content + '. . .'
+                : 'Click below to read about it.'}
+            </p>
 
-            <a className="linkstyle text-right" href={data.url}>
-              Read more...
-            </a>
+            <p className=" text-right ">
+              <a className="linkstyle" href={data.url}>
+                Read more...
+              </a>
+            </p>
           </div>
         </div>
       </div>
