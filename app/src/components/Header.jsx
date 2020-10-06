@@ -8,7 +8,7 @@ function Header() {
   //   setOpenSearch(openstate);
   // };
   return (
-    <div class="sticky-top header text-color-light">
+    <div className="sticky-top header text-color-light">
       <div className="d-flex user-header align-items-center">
         <div className="container-fluid d-flex justify-content-between align-items-center"></div>
       </div>

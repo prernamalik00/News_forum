@@ -17,7 +17,7 @@ function InterestSecCard() {
         <div className="card-body text-light">
           <p className="card-text">Lorem ipsum lorem ipsum lorem ipsum lorem</p>
           <p className="card-text text-right">
-            {/* <a href="#"> Read more...</a> */}
+            <a href="#"> Read more...</a>
           </p>
         </div>
       </div>

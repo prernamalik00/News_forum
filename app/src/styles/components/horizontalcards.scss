@@ -10,7 +10,28 @@
   //               10px 10px 13px #000 ;
 
   background-color: $primarydark-color !important;
+  max-height: 160px;
   .card-body {
     padding: 10px 5px 0 5px;
+  }
+  .col-md-4 {
+    max-height: 158px;
+  }
+  .card-body {
+    .card-title {
+      max-height: 36px; //line height is 1.2 space for 2 lines is 2*(15px*1.2) .
+      font-size: 15px;
+      overflow: hidden;
+    }
+    .card-text {
+      overflow: hidden;
+      line-height: 1.2;
+      font-size: 15px;
+      max-height: 55px;
+      word-spacing: normal;
+    }
+    .article-link {
+      text-decoration: none;
+    }
   }
 }

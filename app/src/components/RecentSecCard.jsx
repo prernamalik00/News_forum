@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card() {
+function Card({ data }) {
   return (
     <div className="horizontalcards card mb-3 ">
       <div className="row no-gutters">
@@ -15,12 +15,11 @@ function Card() {
         </div>
         <div className="col-md-8">
           <div className="card-body text-white">
-            <h4 className="card-title"> Card title </h4>
-            <p className="card-text">
-              Lorem Lorem lorem lorem ipsum lorem ipsum lorem
-            </p>
-            <p className="card-text text-right">
-              {/* <a href="#">Read more...</a> */}
+            <h4 className="card-title">{data.title}</h4>
+            <p className="card-text">{data.content}</p>
+
+            <p className="article-link text-right text-font-bold">
+              <a href={data.url}>Read more...</a>
             </p>
           </div>
         </div>
