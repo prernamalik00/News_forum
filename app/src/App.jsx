@@ -1,13 +1,17 @@
 import React from 'react';
 import Body from './components/Body';
-import { NewsContextProvider } from './components/newsFetch';
+import Bussines from './components/DrawerComponents/Bussines';
+import { Switch, Route } from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-      <NewsContextProvider>
-        <Body />
-      </NewsContextProvider>
+      <Switch>
+ <Route exact path='/' component={Body} />
+ <Route path='/business' component={Bussines} />
+ {/* <Route path='/sports' component={sports} /> */}
+ </Switch>
     </>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Justify } from 'react-bootstrap-icons';
-import Bussiness from './DrawerComponents/Bussiness';
+import Bussines from './DrawerComponents/SqrCards';
 
 function Drawer() {
   const [navToggle, setNavToggle] = useState(false);
@@ -46,7 +46,7 @@ function Drawer() {
             variants={variants}
           >
             <motion.h2 className="closebtn" onClick={toggleNav}>&times;</motion.h2>
-            <motion.h3 variants={item}><a href="/Bussiness"> <Bussiness /> </a></motion.h3>
+            <motion.h3 variants={item}><a href="/business"> Business  </a></motion.h3>
             <motion.h3 variants={item}><a href="#">Services</a></motion.h3>
             <motion.h3 variants={item}><a href="#">Clients</a></motion.h3>
             <motion.h3 variants={item}><a href="#">Contact</a></motion.h3>

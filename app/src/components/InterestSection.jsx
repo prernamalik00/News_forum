@@ -7,6 +7,7 @@ function InterestSection() {
         <InterestSecCard />
         <InterestSecCard />
         <InterestSecCard />
+        
       </div>
     </div>
   );
