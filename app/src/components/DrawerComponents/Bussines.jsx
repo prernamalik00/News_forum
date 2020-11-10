@@ -5,7 +5,7 @@ import InterestSection from "../InterestSection";
 export function Business() {
   
     var url1 =
-    'http://newsapi.org/v2/everything?q=businessORstalkORmarket&apiKey=5ba33b83af9d4febab7e05a05f983793';
+    'http://newsapi.org/v2/everything?q=business&apiKey=5ba33b83af9d4febab7e05a05f983793';
     var req = new Request(url1 );
     const [item, setItem] = useState({});
     useEffect(() => {
