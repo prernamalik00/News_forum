@@ -21,7 +21,7 @@ export function Business() {
     <div className="container-fluid">
     <div className="page">
  
-      <div className="row row-cols-md-4 ">
+      <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
 
       {news
      ? news.map((news) => < SqrCards data={news} key={news.url} />)

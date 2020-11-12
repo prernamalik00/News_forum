@@ -3,7 +3,7 @@ import React from 'react';
 function SqrCards({data}) {
   return (
       
-    <div className="col">
+    <div className="col ">
       <div className="business card ">
       <div className="sqrcards">
         <img
