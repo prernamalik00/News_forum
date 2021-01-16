@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/News_forum/static/css/main.d2e1e5fb.chunk.css",
+    "main.js": "/News_forum/static/js/main.1d0a8c91.chunk.js",
+    "main.js.map": "/News_forum/static/js/main.1d0a8c91.chunk.js.map",
+    "runtime-main.js": "/News_forum/static/js/runtime-main.cb3c11b3.js",
+    "runtime-main.js.map": "/News_forum/static/js/runtime-main.cb3c11b3.js.map",
+    "static/css/2.75c4ecca.chunk.css": "/News_forum/static/css/2.75c4ecca.chunk.css",
+    "static/js/2.ae0bea36.chunk.js": "/News_forum/static/js/2.ae0bea36.chunk.js",
+    "static/js/2.ae0bea36.chunk.js.map": "/News_forum/static/js/2.ae0bea36.chunk.js.map",
+    "index.html": "/News_forum/index.html",
+    "precache-manifest.ed0a256867d1695fb9b55535a3ab46ca.js": "/News_forum/precache-manifest.ed0a256867d1695fb9b55535a3ab46ca.js",
+    "service-worker.js": "/News_forum/service-worker.js",
+    "static/css/2.75c4ecca.chunk.css.map": "/News_forum/static/css/2.75c4ecca.chunk.css.map",
+    "static/css/main.d2e1e5fb.chunk.css.map": "/News_forum/static/css/main.d2e1e5fb.chunk.css.map",
+    "static/js/2.ae0bea36.chunk.js.LICENSE.txt": "/News_forum/static/js/2.ae0bea36.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/News_forum/static/media/NunitoSans-SemiBold.bd318b58.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb3c11b3.js",
+    "static/css/2.75c4ecca.chunk.css",
+    "static/js/2.ae0bea36.chunk.js",
+    "static/css/main.d2e1e5fb.chunk.css",
+    "static/js/main.1d0a8c91.chunk.js"
+  ]
+}
